@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Aastha Jain</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="port.css">
+</head>
+<body>
+    <div id="navbar">
+        <div class="left">
+            <img class="image" src="image.jpg" alt="">
+            <div class="name">
+                <h1>Aastha Jain</h1>
+            </div>
+            <ul>
+                <li><a href="#navbar">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+            <div class="social">
+                <a href="https://www.instagram.com/a.r.t_lover_12" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://wa.me/918989662063" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://github.com/your-github-username" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+        <div class="right">
+            <section class="firstsection">
+                <div class="leftsection">
+                    Hi, My Name Is <span class="purple">Aastha!</span>
+                    <div>I am a Passionate</div>
+                    <span id="element"></span>
+                </div>
+                <div class="rightsection">
+                    <img id="png" src="image1.webp" alt="">
+                </div>
+            </section>
+            <section id="about">
+                <div class="card">
+                    <h2 class="fade-in">About Me</h2>
+                    <p id="about-content">Hi, I'm Aastha Jain, a passionate Developer & UI/UX Designer with a strong eye for detail and a love for crafting intuitive digital experiences. I specialize in front-end development, creating responsive and visually appealing websites using HTML, CSS, JavaScript, and modern frameworks like React. Beyond coding and design, I enjoy exploring creative ideas, staying updated with the latest tech trends, and continuously learning new skills. When I'm not working on projects, you'll find me sketching, painting and crafting. I believe that creativity fuels innovation, and I strive to bring unique, user-friendly solutions to every project. <br><br>Let’s connect and build something amazing together!</p>
+                    <a href="#" class="download-button" onclick="downloadResume()">DOWNLOAD RESUME</a>
+                </div>
+            </section>
+            <section id="education">
+                <h2 class="education-heading">Education</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="year">2022-2026</div>
+                            <div class="title">Graduation</div>
+                            <p class="edu">Currently I am pursuing Bachelor of Technology in Computer Science and Engineering from Gyan Sagar College of Engineering, Sagar.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="year">2021-2022</div>
+                            <div class="title">Higher Secondary</div>
+                            <p class="edu">I have completed my higher secondary from Emmanuel English Medium School, Sagar</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="year">2019-2020</div>
+                            <div class="title">High School</div>
+                            <p class="edu">I have completed my high school from Jain Public Hr. Sec. School, Sagar</p>
+                        </div>
+                    </div>
+            </section>
+            <section id="skills">
+                <div class="about-content">
+                    <h2 class="fade-in">Skills</h2>
+                    <div class="skills">
+                        <div class="skill">
+                            <span>HTML</span>
+                            <div class="bar"><div class="progress" style="width: 90%;"></div></div>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill">
+                            <span>CSS</span>
+                            <div class="bar"><div class="progress" style="width: 80%;"></div></div>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill">
+                            <span>JavaScript</span>
+                            <div class="bar"><div class="progress" style="width: 50%;"></div></div>
+                            <span>50%</span>
+                        </div>
+                        <div class="skill">
+                            <span>UI & UX Designing</span>
+                            <div class="bar"><div class="progress" style="width: 70%;"></div></div>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill">
+                            <span>Wordpress</span>
+                            <div class="bar"><div class="progress" style="width: 50%;"></div></div>
+                            <span>50%</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="portfolio-container">
+                <h2 class="portfolio-title">Projects</h2>
+                <p class="portfolio-subtitle">MY LATEST WORK. SEE MORE ></p>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" id="project1">
+                        <h3>PROJECT 01</h3>
+                    </div>
+                    <div class="portfolio-item" id="project2">
+                        <h3>PROJECT 02</h3>
+                    </div>
+                    <div class="portfolio-item" id="project3">
+                        <h3>PROJECT 03</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="about-content">
+                <h2>Contact</h2>
+                <p class="contact">Let's Connect!
+                    I’d love to hear from you! Whether you have a project in mind, want to collaborate, or just want to say hello, feel free to reach out.</p>
+                <p class="contact"><strong>Contact No.:</strong> +91 8989662063 <br><strong>Email ID:</strong> jainaastha1122@gmail.com</p>
+            </div>
+            <form id="contact-form">
+                <label for="first-name">First name *</label>
+                <input type="text" id="first-name" required>
+                
+                <label for="last-name">Last name *</label>
+                <input type="text" id="last-name" required>
+                
+                <label for="email">Email *</label>
+                <input type="email" id="email" required>
+                
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone">
+                
+                <label for="message">Message</label>
+                <textarea id="message" rows="4" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['<i>Frontend Developer', '&amp; UI UX Designer'],
+          typeSpeed: 50,
+        });
+      </script>
+      <script>
+        function downloadResume() {
+    const resumeUrl = "Aastha cv resume.pdf"; // Make sure this path is correct
+    const a = document.createElement('a');
+    a.href = resumeUrl;
+    a.download = "Aastha cv resume.pdf"; // The name of the downloaded file
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+}
+document.querySelectorAll('.portfolio-item').forEach(item => {
+    item.addEventListener('click', () => {
+        alert(`You clicked on ${item.querySelector('h3').innerText}`);
+    });
+});
+document.getElementById("contact-form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    // Retrieve form values
+    const firstName = document.getElementById("first-name").value;
+    const lastName = document.getElementById("last-name").value;
+    const email = document.getElementById("email").value;
+    const phone = document.getElementById("phone").value;
+    const message = document.getElementById("message").value;
+
+    // You can replace following line with your form submission logic
+    console.log('Form submitted:', { firstName, lastName, email, phone, message });
+    
+    // Optionally clear the form
+    document.getElementById("contact-form").reset();
+});
+document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent default anchor behavior
+
+        const targetId = this.getAttribute('href').substring(1); // Get section ID
+        const targetSection = document.getElementById(targetId);
+
+        window.scrollTo({
+            top: targetSection.offsetTop - 50, // Adjust for navbar height
+            behavior: "smooth"
+        });
+    });
+});
+
+
+
+      </script>
+</body>
+</html>
